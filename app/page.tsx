@@ -185,7 +185,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand">
-          <img src="/modulink-logo.jpeg" alt="Modulink Solutions" />
+          <span className="footer-logo" role="img" aria-label="Modulink Solutions" />
           <p>{t.footer}</p>
         </div>
         <div className="social-links" aria-label="Social media links">
