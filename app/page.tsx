@@ -34,8 +34,9 @@ const content = {
     ],
     workKicker: "أعمالنا",
     workTitle: "حلول مصممة لعمليات حقيقية",
+    appLink: "عرض التطبيق على Odoo Apps",
     work: [
-      ["أنظمة الموافقات المالية", "موافقات متسلسلة لأوامر البيع والشراء والمدفوعات والتحصيلات."],
+      ["نظام الموافقات المالية متعددة المستويات", "سلاسل موافقات مرتبة لأوامر البيع والشراء ومدفوعات الموردين وتحصيلات العملاء، مع حدود مالية وصندوق مركزي للموافقات المعلقة.", "https://apps.odoo.com/apps/modules/19.0/order_finance_approval"],
       ["لوحات المعلومات والتقارير", "مؤشرات وتقارير مالية وتشغيلية تساعد الإدارة على اتخاذ القرار."],
       ["حلول ERP مخصصة", "تخصيصات عملية تربط الإدارات والبيانات داخل منصة واحدة."],
     ],
@@ -75,8 +76,9 @@ const content = {
     ],
     workKicker: "Selected work",
     workTitle: "Solutions designed for real operations",
+    appLink: "View on Odoo Apps",
     work: [
-      ["Financial approval workflows", "Sequential approvals for sales, purchases, payments, and receipts."],
+      ["Multi-Level Financial Approvals", "Ordered approval chains for sales, purchases, vendor payments, and customer receipts, with financial thresholds and a central pending-approval inbox.", "https://apps.odoo.com/apps/modules/19.0/order_finance_approval"],
       ["Dashboards & reporting", "Financial and operational insights that support management decisions."],
       ["Tailored ERP solutions", "Practical customizations that connect teams and data in one platform."],
     ],
@@ -159,8 +161,8 @@ export default function Home() {
         <span className="kicker">{t.workKicker}</span>
         <h2>{t.workTitle}</h2>
         <div className="work-grid">
-          {t.work.map(([title, description], index) => (
-            <article key={title}><div className={`work-art art-${index + 1}`}><span>0{index + 1}</span></div><h3>{title}</h3><p>{description}</p></article>
+          {t.work.map(([title, description, link], index) => (
+            <article key={title}><div className={`work-art art-${index + 1}`}><span>0{index + 1}</span></div><h3>{title}</h3><p>{description}</p>{link && <a className="work-link" href={link} target="_blank" rel="noreferrer">{t.appLink} <span>↗</span></a>}</article>
           ))}
         </div>
       </section>
