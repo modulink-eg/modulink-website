@@ -114,7 +114,7 @@ export default function Home() {
           <h1>{t.title}</h1>
           <p>{t.intro}</p>
           <div className="actions">
-            <a className="button primary" href="https://wa.me/201099023502" target="_blank" rel="noreferrer">{t.primary}</a>
+            <a className="button primary" href="https://wa.me/201099023501" target="_blank" rel="noreferrer">{t.primary}</a>
             <a className="button secondary" href="#services">{t.secondary}</a>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function Home() {
 
       <section id="contact" className="section cta">
         <div><span className="kicker light">MODULINK SOLUTIONS</span><h2>{t.ctaTitle}</h2><p>{t.ctaText}</p></div>
-        <a className="button gold" href="https://wa.me/201099023502" target="_blank" rel="noreferrer">{t.contact}<span>01099023502</span></a>
+        <a className="button gold" href="https://wa.me/201099023501" target="_blank" rel="noreferrer">{t.contact}<span>01099023501</span></a>
       </section>
 
       <footer>
