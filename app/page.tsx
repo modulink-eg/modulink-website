@@ -106,6 +106,9 @@ const content = {
       ["لوحات المعلومات والتقارير", "مؤشرات وتقارير مالية وتشغيلية تساعد الإدارة على اتخاذ القرار."],
       ["حلول ERP مخصصة", "تخصيصات عملية تربط الإدارات والبيانات داخل منصة واحدة."],
     ],
+    partnersKicker: "شركاؤنا",
+    partnersTitle: "شراكات تدعم حلولًا أكثر تكاملًا",
+    partnersText: "نتعاون مع منصات وشركات تقنية موثوقة لتقديم حلول عملية ومستدامة لعملائنا.",
     ctaTitle: "هل تحتاج إلى تطوير نظامك المالي أو التشغيلي؟",
     ctaText: "تحدث معنا عن احتياجاتك وسنساعدك في اختيار الحل الأنسب.",
     contact: "تواصل عبر واتساب",
@@ -148,6 +151,9 @@ const content = {
       ["Dashboards & reporting", "Financial and operational insights that support management decisions."],
       ["Tailored ERP solutions", "Practical customizations that connect teams and data in one platform."],
     ],
+    partnersKicker: "Our Partners",
+    partnersTitle: "Partnerships that enable integrated solutions",
+    partnersText: "We collaborate with trusted technology platforms and companies to deliver practical, sustainable solutions for our clients.",
     ctaTitle: "Ready to improve your financial or operational system?",
     ctaText: "Tell us what you need and we will help you choose the right solution.",
     contact: "Chat on WhatsApp",
@@ -231,6 +237,17 @@ export default function Home() {
           {t.work.map(([title, description, link], index) => (
             <article key={title}><WorkVisual index={index} /><div className="work-copy"><h3>{title}</h3><p>{description}</p>{link && <a className="work-link" href={link} target="_blank" rel="noreferrer">{t.appLink} <span>↗</span></a>}</div></article>
           ))}
+        </div>
+      </section>
+
+      <section className="section partners" aria-labelledby="partners-title">
+        <div className="partners-heading">
+          <div><span className="kicker">{t.partnersKicker}</span><h2 id="partners-title">{t.partnersTitle}</h2></div>
+          <p>{t.partnersText}</p>
+        </div>
+        <div className="partner-grid">
+          <article><img src="/partner-odoo.png" alt="Odoo" /><span>Odoo</span></article>
+          <article><img src="/partner-anevex.png" alt="Anevex" /><span>Anevex</span></article>
         </div>
       </section>
 
