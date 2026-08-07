@@ -109,7 +109,8 @@ export default function Home() {
     <main dir={rtl ? "rtl" : "ltr"} className={rtl ? "rtl" : "ltr"}>
       <header className="topbar">
         <a className="brand" href="#home" aria-label="Modulink Solutions home">
-          <img src="/modulink-logo.jpeg" alt="Modulink Solutions" />
+          <span className="brand-mark" aria-hidden="true" />
+          <span className="brand-name"><b>Modulink</b><small>Solutions</small></span>
         </a>
         <nav aria-label="Main navigation">
           {t.nav.map((item, index) => (
