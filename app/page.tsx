@@ -176,6 +176,7 @@ export default function Home() {
         <img src="/modulink-logo.jpeg" alt="Modulink Solutions" />
         <p>{t.footer}</p>
         <div className="social-links" aria-label="Social media links">
+          <a href="mailto:Modulink-eg@hotmail.com">Email</a>
           <a href="https://wa.me/201099023501" target="_blank" rel="noreferrer">WhatsApp</a>
           <a href="https://www.facebook.com/Mrdulink" target="_blank" rel="noreferrer">Facebook</a>
           <a href="https://www.instagram.com/modulink1?igsh=MThkeTltZno1NW9meg==" target="_blank" rel="noreferrer">Instagram</a>
