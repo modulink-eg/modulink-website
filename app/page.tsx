@@ -13,6 +13,61 @@ function SocialIcon({ name }: { name: string }) {
   return <svg {...common}><path d="M12 3.2c-2.8 0-4.5 2.1-4.5 4.8 0 .7.1 1.5 0 2.2-.2.7-1.1 1.1-1.8 1.4-.5.2-.4.8.1 1 .5.2 1 .3 1.5.4.2.8-.4 1.8-1.5 2.1-.5.2-.5.8 0 1.1.8.4 1.7.4 2.5.4.6 0 .9.9 1.5 1.2.5.3 1.1-.1 1.7-.1s1.2.4 1.7.1c.6-.3.9-1.2 1.5-1.2.8 0 1.7 0 2.5-.4.5-.3.5-.9 0-1.1-1.1-.3-1.7-1.3-1.5-2.1.5-.1 1-.2 1.5-.4.5-.2.6-.8.1-1-.7-.3-1.6-.7-1.8-1.4-.1-.7 0-1.5 0-2.2 0-2.7-1.7-4.8-4.5-4.8Z"/></svg>;
 }
 
+function WorkVisual({ index }: { index: number }) {
+  if (index === 0) return (
+    <div className="work-art art-1" aria-hidden="true">
+      <svg className="work-illustration" viewBox="0 0 520 290">
+        <rect className="ui-shell" x="54" y="30" width="412" height="230" rx="24" />
+        <rect className="ui-topbar" x="54" y="30" width="412" height="45" rx="24" />
+        <circle className="ui-dot" cx="82" cy="52" r="5" /><circle className="ui-dot" cx="99" cy="52" r="5" /><circle className="ui-dot" cx="116" cy="52" r="5" />
+        <rect className="ui-sidebar" x="74" y="94" width="94" height="145" rx="15" />
+        <circle className="ui-avatar" cx="121" cy="126" r="20" />
+        <rect className="ui-line" x="93" y="161" width="56" height="7" rx="4" /><rect className="ui-line" x="93" y="181" width="44" height="7" rx="4" />
+        <g className="ui-modules">
+          <rect x="188" y="94" width="76" height="62" rx="14" /><rect x="278" y="94" width="76" height="62" rx="14" /><rect x="368" y="94" width="76" height="62" rx="14" />
+          <rect x="188" y="175" width="76" height="64" rx="14" /><rect x="278" y="175" width="76" height="64" rx="14" /><rect x="368" y="175" width="76" height="64" rx="14" />
+        </g>
+        <g className="ui-glyphs" fill="none" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M210 126h32m-22-12v24" /><path d="M298 134l14-17 10 10 14-18" /><circle cx="406" cy="125" r="16" /><path d="M406 109v16l12 8" />
+          <path d="M209 213h34m-28-13h22" /><path d="M300 213l10-11 9 7 14-18" /><path d="M392 208h28m-22-11h16m-19 22h22" />
+        </g>
+        <text className="visual-word" x="446" y="55" textAnchor="end">ODOO</text>
+      </svg>
+    </div>
+  );
+
+  if (index === 1) return (
+    <div className="work-art art-2" aria-hidden="true">
+      <svg className="work-illustration" viewBox="0 0 520 290">
+        <rect className="dash-shell" x="48" y="28" width="424" height="234" rx="24" />
+        <rect className="dash-card" x="72" y="54" width="112" height="65" rx="14" /><rect className="dash-card" x="204" y="54" width="112" height="65" rx="14" /><rect className="dash-card" x="336" y="54" width="112" height="65" rx="14" />
+        <text className="dash-label" x="88" y="77">REVENUE</text><text className="dash-value" x="88" y="103">+24%</text>
+        <text className="dash-label" x="220" y="77">ORDERS</text><text className="dash-value" x="220" y="103">1,248</text>
+        <text className="dash-label" x="352" y="77">GROWTH</text><text className="dash-value" x="352" y="103">+18%</text>
+        <rect className="dash-chart" x="72" y="139" width="240" height="96" rx="15" /><rect className="dash-chart" x="332" y="139" width="116" height="96" rx="15" />
+        <g className="chart-bars"><rect x="95" y="191" width="19" height="27" rx="5" /><rect x="128" y="170" width="19" height="48" rx="5" /><rect x="161" y="181" width="19" height="37" rx="5" /><rect x="194" y="154" width="19" height="64" rx="5" /><rect x="227" y="166" width="19" height="52" rx="5" /><rect x="260" y="147" width="19" height="71" rx="5" /></g>
+        <circle className="donut-back" cx="390" cy="187" r="29" fill="none" strokeWidth="15" /><circle className="donut-front" cx="390" cy="187" r="29" fill="none" strokeWidth="15" strokeDasharray="128 55" transform="rotate(-90 390 187)" />
+        <text className="donut-text" x="390" y="192" textAnchor="middle">KPI</text>
+      </svg>
+    </div>
+  );
+
+  return (
+    <div className="work-art art-3" aria-hidden="true">
+      <svg className="work-illustration" viewBox="0 0 520 290">
+        <g className="erp-links" fill="none"><path d="M260 145 148 86M260 145l112-59M260 145l-112 62M260 145l112 62" /></g>
+        <g className="erp-node"><rect x="76" y="49" width="144" height="72" rx="18" /><rect x="300" y="49" width="144" height="72" rx="18" /><rect x="76" y="170" width="144" height="72" rx="18" /><rect x="300" y="170" width="144" height="72" rx="18" /></g>
+        <g className="erp-icons" fill="none" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M113 94h26m-20-12h14m-11-12h8" /><path d="M337 73h32v26h-32zM345 66v9m16-9v9" />
+          <path d="M114 215h26l-3-24h-20zM121 191v-7h12v7" /><circle cx="352" cy="205" r="15" /><path d="M352 187v7m0 22v7m18-18h-7m-22 0h-7" />
+        </g>
+        <g className="erp-labels"><text x="173" y="91" textAnchor="end">FINANCE</text><text x="395" y="91" textAnchor="middle">SALES</text><text x="173" y="213" textAnchor="end">STOCK</text><text x="395" y="213" textAnchor="middle">OPERATIONS</text></g>
+        <circle className="erp-core" cx="260" cy="145" r="62" /><circle className="erp-ring" cx="260" cy="145" r="48" fill="none" /><text className="erp-word" x="260" y="154" textAnchor="middle">ERP</text>
+      </svg>
+    </div>
+  );
+}
+
 const content = {
   ar: {
     nav: ["الرئيسية", "من نحن", "خدماتنا", "أعمالنا", "تواصل معنا"],
@@ -174,7 +229,7 @@ export default function Home() {
         <h2>{t.workTitle}</h2>
         <div className="work-grid">
           {t.work.map(([title, description, link], index) => (
-            <article key={title}><div className={`work-art art-${index + 1}`}><span>0{index + 1}</span></div><h3>{title}</h3><p>{description}</p>{link && <a className="work-link" href={link} target="_blank" rel="noreferrer">{t.appLink} <span>↗</span></a>}</article>
+            <article key={title}><WorkVisual index={index} /><div className="work-copy"><h3>{title}</h3><p>{description}</p>{link && <a className="work-link" href={link} target="_blank" rel="noreferrer">{t.appLink} <span>↗</span></a>}</div></article>
           ))}
         </div>
       </section>
