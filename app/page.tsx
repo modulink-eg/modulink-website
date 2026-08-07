@@ -175,6 +175,13 @@ export default function Home() {
       <footer>
         <img src="/modulink-logo.jpeg" alt="Modulink Solutions" />
         <p>{t.footer}</p>
+        <div className="social-links" aria-label="Social media links">
+          <a href="https://wa.me/201099023501" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="https://www.facebook.com/Mrdulink" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="https://www.instagram.com/modulink1?igsh=MThkeTltZno1NW9meg==" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://t.me/Modulinkeg" target="_blank" rel="noreferrer">Telegram</a>
+          <a href="https://www.snapchat.com/@modulink?sender_web_id=e3d9cda1-b1aa-4395-858a-cc3cb839f779&amp;device_type=desktop&amp;is_copy_url=true" target="_blank" rel="noreferrer">Snapchat</a>
+        </div>
         <span>© {new Date().getFullYear()}</span>
       </footer>
     </main>
