@@ -34,9 +34,9 @@ const content = {
     ],
     workKicker: "أعمالنا",
     workTitle: "حلول مصممة لعمليات حقيقية",
-    appLink: "عرض التطبيق على Odoo Apps",
+    appLink: "عرض أعمالنا على Odoo Apps",
     work: [
-      ["نظام إدارة الموافقات والرقابة المالية", "سلاسل موافقات مرتبة لأوامر البيع والشراء ومدفوعات الموردين وتحصيلات العملاء، مع حدود مالية وصندوق مركزي للموافقات المعلقة.", "https://apps.odoo.com/apps/modules/19.0/order_finance_approval"],
+      ["أعمالنا في Odoo", "استعرض تطبيقات وحلول Modulink Egypt المنشورة على متجر Odoo Apps لتطوير العمليات المالية والتشغيلية.", "https://apps.odoo.com/apps/modules/browse?author=Modulink%20Egypt"],
       ["لوحات المعلومات والتقارير", "مؤشرات وتقارير مالية وتشغيلية تساعد الإدارة على اتخاذ القرار."],
       ["حلول ERP مخصصة", "تخصيصات عملية تربط الإدارات والبيانات داخل منصة واحدة."],
     ],
@@ -76,9 +76,9 @@ const content = {
     ],
     workKicker: "Selected work",
     workTitle: "Solutions designed for real operations",
-    appLink: "View on Odoo Apps",
+    appLink: "Explore our Odoo Apps",
     work: [
-      ["Financial Approval & Control System", "Ordered approval chains for sales, purchases, vendor payments, and customer receipts, with financial thresholds and a central pending-approval inbox.", "https://apps.odoo.com/apps/modules/19.0/order_finance_approval"],
+      ["Our Work on Odoo", "Explore Modulink Egypt applications and solutions published on the Odoo Apps Store for better financial and operational processes.", "https://apps.odoo.com/apps/modules/browse?author=Modulink%20Egypt"],
       ["Dashboards & reporting", "Financial and operational insights that support management decisions."],
       ["Tailored ERP solutions", "Practical customizations that connect teams and data in one platform."],
     ],
