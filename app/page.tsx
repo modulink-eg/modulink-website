@@ -246,8 +246,8 @@ export default function Home() {
           <p>{t.partnersText}</p>
         </div>
         <div className="partner-grid">
-          <article><img src="/partner-odoo.png" alt="Odoo" /><span>Odoo</span></article>
-          <article><img src="/partner-anevex.png" alt="Anevex" /><span>Anevex</span></article>
+          <div className="partner-logo"><img src="/partner-odoo.png" alt="Odoo" /></div>
+          <div className="partner-logo"><img src="/partner-anevex.png" alt="Anevex" /></div>
         </div>
       </section>
 
