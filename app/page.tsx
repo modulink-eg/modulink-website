@@ -181,7 +181,10 @@ export default function Home() {
 
       <section id="contact" className="section cta">
         <div><span className="kicker light">MODULINK SOLUTIONS</span><h2>{t.ctaTitle}</h2><p>{t.ctaText}</p></div>
-        <a className="button gold" href="https://wa.me/201099023501" target="_blank" rel="noreferrer">{t.contact}<span>01099023501</span></a>
+        <a className="button whatsapp-cta" href="https://wa.me/201099023501" target="_blank" rel="noreferrer" aria-label={t.contact}>
+          <SocialIcon name="whatsapp" />
+          <span>{t.contact}</span>
+        </a>
       </section>
 
       <footer>
