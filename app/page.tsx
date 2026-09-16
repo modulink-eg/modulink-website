@@ -102,7 +102,7 @@ const content = {
     workTitle: "حلول مصممة لعمليات حقيقية",
     appLink: "عرض أعمالنا على Odoo Apps",
     work: [
-      ["حلولنا على Odoo", "استعرض تطبيقات وحلول Modulink Egypt المنشورة على متجر Odoo Apps لتطوير العمليات المالية والتشغيلية.", "https://apps.odoo.com/apps/modules/browse?author=Modulink%20Egypt"],
+      ["حلولنا على Odoo", "استعرض تطبيقات وحلول Modulink Solutions المنشورة على متجر Odoo Apps لتطوير العمليات المالية والتشغيلية.", "https://apps.odoo.com/apps/modules/browse?author=Modulink%20Solutions"],
       ["لوحات المعلومات والتقارير", "مؤشرات وتقارير مالية وتشغيلية تساعد الإدارة على اتخاذ القرار."],
       ["حلول ERP مخصصة", "تخصيصات عملية تربط الإدارات والبيانات داخل منصة واحدة."],
     ],
@@ -147,7 +147,7 @@ const content = {
     workTitle: "Solutions designed for real operations",
     appLink: "Explore our Odoo Apps",
     work: [
-      ["Our Odoo Solutions", "Explore Modulink Egypt applications and solutions published on the Odoo Apps Store for better financial and operational processes.", "https://apps.odoo.com/apps/modules/browse?author=Modulink%20Egypt"],
+      ["Our Odoo Solutions", "Explore Modulink Solutions applications and solutions published on the Odoo Apps Store for better financial and operational processes.", "https://apps.odoo.com/apps/modules/browse?author=Modulink%20Solutions"],
       ["Dashboards & reporting", "Financial and operational insights that support management decisions."],
       ["Tailored ERP solutions", "Practical customizations that connect teams and data in one platform."],
     ],
